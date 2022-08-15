@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  background: var(--gray-700);
+  height: 12.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo span {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1:nth-of-type(1) {
+  font-size: 2.5rem;
+  font-weight: black;
+  color: var(--blue)
+
+}
+.logo h1:nth-of-type(2) {
+  font-size: 2.5rem;
+  font-weight: black;
+  color: var(--purple-dark)
+}

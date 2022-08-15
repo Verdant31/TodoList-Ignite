@@ -1,0 +1,38 @@
+.searchInput {
+  background: var(--gray-500);
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding-left: 1.5rem;
+}
+.barContainer {
+  max-width: 46rem;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  height: 3.375rem;
+  margin: 0 auto;
+  margin-top: -1.687rem;
+  margin-bottom: 4rem;
+}
+.buttonCreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.925rem;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  border: none;  
+  font-size: 0.875rem;
+  color: var(--gray-100);
+  font-weight: bold;
+  gap: 0.3rem;
+}
+.buttonCreate:focus {
+  box-shadow: 0 0 0 2px var(--blue);
+}
+.buttonCreate p {
+  font-size: 0.875rem;
+}
